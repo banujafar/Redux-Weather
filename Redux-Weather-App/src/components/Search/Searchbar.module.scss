@@ -1,0 +1,31 @@
+.form-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__input {
+    border: 1px solid #527db7;
+    background-color: inherit;
+    padding: 12px 14px;
+    margin: 10px;
+    border-radius: 4px;
+    outline: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: #23a58b;
+
+    &:focus {
+      outline: 2px solid #527db7;
+    }
+  }
+
+  &__btn {
+    background-color: #4f3add;
+    color: #fff;
+    padding: 9px 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+}
